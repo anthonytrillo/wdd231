@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anthony Trillo's WDD 231 course home page showcasing web certificate progress, projects, and portfolio links.">
+  <meta name="author" content="Anthony Trillo">
+  <title>Anthony Trillo | WDD 231 Course Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Anthony Trillo site logo" width="40" height="40">
+    <h1>Anthony Trillo</h1>
+    <button id="nav-button" class="hamburger" type="button" aria-label="Toggle navigation" aria-controls="nav-bar" aria-expanded="false"></button>
+  </header>
+
+  <nav id="nav-bar" class="navigation" aria-label="Primary">
+    <ul>
+      <li class="current"><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="chamber/">Chamber</a></li>
+      <li><a href="project/">Final</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Home</h2>
+
+    <div class="intro-grid">
+      <section class="card about" aria-labelledby="about-heading">
+        <h3 id="about-heading">About Me</h3>
+        <div class="card-body">
+          <p>
+            Hello! I am Anthony Trillo, a student in the Web and Computer Programming certificate.
+            I enjoy building clean, accessible interfaces and learning how thoughtful layout and
+            interaction design improve everyday web experiences.
+          </p>
+          <p>
+            This course home page tracks my progress through the certificate and links to my
+            Chamber of Commerce and final project work as those sites take shape.
+          </p>
+        </div>
+      </section>
+
+      <section class="card photo" aria-labelledby="photo-heading">
+        <h3 id="photo-heading">Student Photo</h3>
+        <div class="card-body photo-frame">
+          <img
+            src="images/profile.svg"
+            alt="Portrait placeholder for Anthony Trillo"
+            width="320"
+            height="320">
+        </div>
+      </section>
+    </div>
+
+    <section class="card courses" aria-labelledby="courses-heading">
+      <h3 id="courses-heading">Web Certificate Courses</h3>
+      <div class="card-body">
+        <div class="filters" role="group" aria-label="Filter courses by subject">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="CSE">CSE</button>
+          <button type="button" class="filter-btn" data-filter="WDD">WDD</button>
+        </div>
+        <div id="course-list" class="course-list"></div>
+        <p id="credit-total" class="credit-total"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://github.com/anthonytrillo" target="_blank" rel="noopener noreferrer">
+        <img src="images/github.svg" alt="GitHub profile" width="48" height="48">
+      </a>
+      <a href="https://www.linkedin.com/in/anthonytrillo" target="_blank" rel="noopener noreferrer">
+        <img src="images/linkedin.svg" alt="LinkedIn profile" width="48" height="48">
+      </a>
+      <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+        <img src="images/x.svg" alt="X profile" width="48" height="48">
+      </a>
+    </div>
+    <p>&copy; <span id="currentyear"></span> &bull; Anthony Trillo &bull; Florida, USA</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
