@@ -1,0 +1,13 @@
+@media screen and (min-width: 40rem) {
+  .members.grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .members.list .member-card {
+    max-width: none;
+  }
+
+  .members.list .member-body {
+    grid-template-columns: 6.5rem 1fr;
+  }
+}

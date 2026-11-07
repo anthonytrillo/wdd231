@@ -1,0 +1,10 @@
+const navButton = document.querySelector("#nav-button");
+const navBar = document.querySelector("#nav-bar");
+
+if (navButton && navBar) {
+  navButton.addEventListener("click", () => {
+    const isOpen = navButton.classList.toggle("show");
+    navButton.setAttribute("aria-expanded", isOpen);
+    navBar.classList.toggle("show");
+  });
+}

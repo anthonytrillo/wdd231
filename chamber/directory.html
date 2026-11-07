@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Business directory of the Buenos Aires Chamber of Commerce member companies.">
+  <meta name="author" content="Anthony Trillo">
+  <title>Directory | Buenos Aires Chamber of Commerce</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/theme.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/directory.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">
+      <img src="images/logo.svg" alt="Buenos Aires Chamber of Commerce logo" width="48" height="48">
+      <span>Buenos Aires Chamber of Commerce</span>
+    </a>
+    <nav id="nav-bar" class="navigation" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="directory.html" aria-current="page">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+    <button id="theme-button" type="button" aria-label="Toggle dark mode"></button>
+    <button id="nav-button" class="hamburger" type="button" aria-label="Toggle navigation" aria-controls="nav-bar" aria-expanded="false"></button>
+  </header>
+
+  <main>
+    <h1>Directory</h1>
+    <div class="view-toggles" role="group" aria-label="Directory layout">
+      <button id="grid-btn" type="button" class="view-btn active" aria-pressed="true">Grid</button>
+      <button id="list-btn" type="button" class="view-btn" aria-pressed="false">List</button>
+    </div>
+    <section id="members" class="members grid" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <div class="footer-contact">
+      <p><strong>Buenos Aires Chamber of Commerce</strong></p>
+      <p>Av. Leandro N. Alem 36</p>
+      <p>Buenos Aires, Argentina C1003AAN</p>
+      <p><a href="mailto:info@bacoc.org.ar">info@bacoc.org.ar</a></p>
+      <p>(011) 5300-9000</p>
+    </div>
+    <div class="social">
+      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/youtube.svg" alt="YouTube" width="48" height="48">
+      </a>
+      <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/twitter.svg" alt="Twitter" width="48" height="48">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/linkedin.svg" alt="LinkedIn" width="48" height="48">
+      </a>
+    </div>
+    <div class="footer-legal">
+      <p>WDD231 Class Project</p>
+      <p>Anthony Trillo</p>
+      <p>&copy; <span id="currentyear"></span> Buenos Aires Chamber of Commerce</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>

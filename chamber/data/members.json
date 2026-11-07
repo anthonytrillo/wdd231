@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Café Tortoni",
+    "tagline": "Historic café on Avenida de Mayo",
+    "email": "reservas@cafetortoni.com.ar",
+    "phone": "+54 11 4342-4328",
+    "url": "https://www.cafetortoni.com.ar",
+    "address": "Av. de Mayo 825, CABA",
+    "image": "images/members/cafe-tortoni.svg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "El Ateneo Grand Splendid",
+    "tagline": "Bookstore in a landmark theater",
+    "email": "info@elateneo.com.ar",
+    "phone": "+54 11 4813-6052",
+    "url": "https://www.yenny-elateneo.com",
+    "address": "Av. Santa Fe 1860, CABA",
+    "image": "images/members/el-ateneo.svg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Mercado de San Telmo",
+    "tagline": "Market for antiques, food, and design",
+    "email": "hola@mercadodesantelmo.com",
+    "phone": "+54 11 4300-1013",
+    "url": "https://www.mercadodesantelmo.com",
+    "address": "Bolívar 490, San Telmo, CABA",
+    "image": "images/members/mercado-san-telmo.svg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "La Cabrera",
+    "tagline": "Neighborhood parrilla and wine bar",
+    "email": "contacto@parrillalacabrera.com.ar",
+    "phone": "+54 11 4832-5754",
+    "url": "https://www.parrillalacabrera.com.ar",
+    "address": "José Antonio Cabrera 5099, Palermo",
+    "image": "images/members/la-cabrera.svg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Havanna",
+    "tagline": "Alfajores, coffee, and Argentine sweets",
+    "email": "clientes@havanna.com.ar",
+    "phone": "+54 11 4311-2200",
+    "url": "https://www.havanna.com.ar",
+    "address": "Florida 669, Microcentro, CABA",
+    "image": "images/members/havanna.svg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Freddo",
+    "tagline": "Artisan ice cream since 1969",
+    "email": "info@freddo.com.ar",
+    "phone": "+54 11 4802-1111",
+    "url": "https://www.freddo.com.ar",
+    "address": "Av. Quintana 474, Recoleta, CABA",
+    "image": "images/members/freddo.svg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "MALBA Tienda",
+    "tagline": "Museum shop for Latin American art",
+    "email": "tienda@malba.org.ar",
+    "phone": "+54 11 4808-6500",
+    "url": "https://www.malba.org.ar",
+    "address": "Av. Figueroa Alcorta 3415, CABA",
+    "image": "images/members/malba.svg",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Chevallier",
+    "tagline": "Regional coach travel across Argentina",
+    "email": "info@nuevachevallier.com",
+    "phone": "+54 11 4000-5253",
+    "url": "https://www.nuevachevallier.com",
+    "address": "Terminal de Retiro, CABA",
+    "image": "images/members/chevallier.svg",
+    "membershipLevel": 1
+  },
+  {
+    "name": "TecnoBA Studio",
+    "tagline": "Software and digital product studio",
+    "email": "hello@tecnoba.studio",
+    "phone": "+54 11 5258-4400",
+    "url": "https://www.tecnoba.studio",
+    "address": "Av. Córdoba 3200, Palermo, CABA",
+    "image": "images/members/tecnoba.svg",
+    "membershipLevel": 3
+  }
+]
