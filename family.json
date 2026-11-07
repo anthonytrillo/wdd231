@@ -1,0 +1,28 @@
+{
+    "familyName": "Trillo",
+    "moveInDate": "2026-01-01",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Anthony Trillo",
+            "gender": "Male",
+            "birthDate": "1990-04-30"
+        },
+        {
+            "name": "Rosary Trillo",
+            "gender": "female",
+            "birthDate": "1992-09-30"
+        },
+        {
+            "name": "Vicente Trillo",
+            "gender": "Male",
+            "birthDate": "1960-01-01"
+        },
+        {
+            "name": "Mary Trillo",
+            "gender": "female",
+            "birthDate": "1963-01-01"
+        }
+    ]
+}

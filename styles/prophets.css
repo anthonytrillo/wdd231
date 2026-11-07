@@ -1,0 +1,30 @@
+body {
+    font-family: 'Figtree', sans-serif;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+h2 {
+    margin: 0 0 0 0;
+}
+
+img {
+    width: 340px;
+    height: 440px;
+}
