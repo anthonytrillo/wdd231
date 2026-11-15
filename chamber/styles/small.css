@@ -63,6 +63,7 @@ a {
 
 h1,
 h2,
+h3,
 p {
   margin-top: 0;
 }
@@ -279,10 +280,85 @@ h1 {
   overflow-wrap: anywhere;
 }
 
-.coming-soon {
+.coming-soon,
+.welcome,
+.weather {
   padding: 1.25rem;
   background: var(--card);
   border-radius: var(--radius);
+}
+
+.welcome,
+.weather {
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.weather-place,
+.weather-desc,
+.forecast-low {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.current-temp {
+  margin-bottom: 0.15rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.weather h3 {
+  margin: 1rem 0 0.75rem;
+  font-size: 1.15rem;
+}
+
+.forecast {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.forecast-day {
+  padding: 0.75rem;
+  background: var(--surface);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.forecast-day h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.forecast-day p {
+  margin: 0;
+}
+
+.forecast-temp {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.spotlights {
+  display: grid;
+  gap: 1rem;
+}
+
+.spotlight h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+.membership {
+  margin: 0;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 footer {

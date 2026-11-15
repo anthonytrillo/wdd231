@@ -20,6 +20,7 @@
   <script src="scripts/navigation.js" defer></script>
   <script src="scripts/theme.js" defer></script>
   <script src="scripts/date.js" defer></script>
+  <script src="scripts/home.js" type="module"></script>
 </head>
 <body>
   <header>
@@ -41,10 +42,26 @@
 
   <main>
     <h1>Home</h1>
-    <section class="card coming-soon">
+    <section class="welcome">
       <h2>Welcome</h2>
       <p>The Buenos Aires Chamber of Commerce helps local businesses grow through networking, advocacy, and a public member directory.</p>
-      <p><a href="directory.html">Browse the member directory</a> while the full home page is completed in a later week.</p>
+      <p><a href="directory.html">Browse the member directory</a> or <a href="join.html">apply for membership</a>.</p>
+    </section>
+
+    <section id="weather" class="weather" aria-live="polite">
+      <h2>Weather</h2>
+      <p class="weather-place">Buenos Aires, Argentina</p>
+      <p id="current-temp" class="current-temp">Loading current temperature…</p>
+      <p id="weather-desc" class="weather-desc"></p>
+      <h3>Three-Day Forecast</h3>
+      <div id="forecast" class="forecast"></div>
+    </section>
+
+    <section aria-labelledby="spotlight-heading">
+      <h2 id="spotlight-heading">Company Spotlights</h2>
+      <div id="spotlight-list" class="spotlights" aria-live="polite">
+        <p>Loading member spotlights…</p>
+      </div>
     </section>
   </main>
 

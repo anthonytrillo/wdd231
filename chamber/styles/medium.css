@@ -1,4 +1,12 @@
 @media screen and (min-width: 40rem) {
+  .forecast {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .spotlights {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+
   .members.grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
