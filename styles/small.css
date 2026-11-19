@@ -271,6 +271,54 @@ main {
   font-weight: 600;
 }
 
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  border: none;
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 90%;
+  max-width: 40rem;
+  max-height: 90vh;
+}
+
+dialog h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+dialog p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+dialog p:last-child {
+  margin-bottom: 0;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+dialog button {
+  padding: 0.5rem;
+  border: none;
+  background: var(--primary);
+  color: #f8faf9;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 footer {
   padding: 2rem 1rem;
   text-align: center;

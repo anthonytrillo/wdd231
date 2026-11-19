@@ -16,9 +16,6 @@
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
-  <script src="scripts/navigation.js" defer></script>
-  <script src="scripts/date.js" defer></script>
-  <script src="scripts/course.js" defer></script>
 </head>
 <body>
   <header>
@@ -36,9 +33,8 @@
   </nav>
 
   <main>
-    <h1>Home</h1>
-
     <section class="card about" aria-labelledby="about-heading">
+      <div class="card-body">
         <h2 id="about-heading">About Me</h2>
         <div class="card-body">
             <p>
@@ -51,9 +47,11 @@
             Chamber of Commerce and final project work as those sites take shape.
             </p>
         </div>
+      </div>
     </section>
 
     <section class="card photo" aria-labelledby="photo-heading">
+      <div class="card-body">
         <h2 id="photo-heading">Student Photo</h2>
         <div class="card-body photo-frame">
             <img
@@ -62,10 +60,12 @@
             width="320"
             height="320">
         </div>
+      </div>
     </section>
 
     <section class="card courses" aria-labelledby="courses-heading">
-      <h2 id="courses-heading">Web Certificate Courses</h2>
+      <div class="card-body">
+        <h2 id="courses-heading">Web Certificate Courses</h2>
       <div class="card-body">
         <div class="filters" role="group" aria-label="Filter courses by subject">
           <button type="button" class="filter-btn active" data-filter="all">All</button>
@@ -73,9 +73,13 @@
           <button type="button" class="filter-btn" data-filter="WDD">WDD</button>
         </div>
         <div id="course-list" class="course-list"></div>
-        <p id="credit-total" class="credit-total"></p>
+          <p id="credit-total" class="credit-total"></p>
+        </div>
       </div>
     </section>
+    <dialog id="course-details">
+      <button id="closeModal" aria-label="Close">❌</button>
+    </dialog>
   </main>
 
   <footer>
@@ -93,5 +97,9 @@
     <p>&copy; <span id="currentyear"></span> &bull; Anthony Trillo &bull; Florida, USA</p>
     <p id="lastModified"></p>
   </footer>
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
 </body>
 </html>
